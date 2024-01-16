@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/apiSongsList"
+        android:title="API Songs List" />
+    <item
+        android:id="@+id/storageSongsList"
+        android:title="Storage Songs List" />
+</menu>

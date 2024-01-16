@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".PlaySongs"
+    android:orientation="vertical">
+
+    <fragment
+        android:id="@+id/fragment2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:name="com.ibrahimbinmansoor.musicplayer.FragmentOnline"
+        tools:layout="@layout/activity_fragment_online"
+        android:layout_weight="1"
+        />
+
+    <LinearLayout
+        android:id="@+id/linearLayout01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="3"
+        >
+
+        <LinearLayout
+            android:id="@+id/linearLayout02"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_weight="1"
+            >
+
+            <ImageView
+                android:id="@+id/preSong1"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@drawable/baseline_skip_previous_24" />
+
+            <ImageView
+                android:id="@+id/pauseSong1"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@drawable/pause" />
+
+            <ImageView
+                android:id="@+id/nextSong1"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@drawable/baseline_skip_next_24" />
+
+        </LinearLayout>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/download"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:visibility="invisible"
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
