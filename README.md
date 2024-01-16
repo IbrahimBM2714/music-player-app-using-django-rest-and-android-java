@@ -2,7 +2,7 @@
 
 Background: This was a semester project for an Android development course I took at university. Around the same time, I was learning the Django rest framework, so I thought why not integrate both into a single app.
 
-<h3>Django Api</h3>
+<h3>Django API</h3>
 The API looks like
 
 ![image](https://github.com/IbrahimBM2714/music-player-app-using-django-rest-and-android-java/assets/115867055/cd41683b-774d-4737-9984-4dd4ad1877d2)
