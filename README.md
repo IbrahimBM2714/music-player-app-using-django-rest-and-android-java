@@ -23,11 +23,25 @@ These are the steps to run the API:
 <h3>Android APP</h3>
 Just because the API is hosted locally, the API will have a different URL for everyone. This warrants a small change in the Android code too.
 In Line 46 of SongDisplay.java, change the apiUrl to the URL of the API as seen in your browser. That is all the change required. After that run the app on either an emulator or your device.
-
+<br>
 This is what the app looks like:
 App Icon
 <br>
 
 ![image](https://github.com/IbrahimBM2714/music-player-app-using-django-rest-and-android-java/assets/115867055/45944dd0-efaa-4148-a20b-40c58a13d1d5)
+
+<br>
+
+Songs Display
+<br>
+
+![image](https://github.com/IbrahimBM2714/music-player-app-using-django-rest-and-android-java/assets/115867055/8622e39d-16bf-4306-a0d5-bafeb5d0017b)
+
+<br>
+
+Song Playing
+<br>
+
+![image](https://github.com/IbrahimBM2714/music-player-app-using-django-rest-and-android-java/assets/115867055/f7951df5-ff40-46c8-b9ec-57c9ecbc8a8b)
 
 <br>
